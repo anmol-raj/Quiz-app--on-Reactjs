@@ -122,7 +122,7 @@ h1 {
 }
 @media only screen and (max-width: 600px) {
   .card {
-    width: 350px;
+    width: auto;
     height: auto;
     text-align: center !important;
   }
@@ -151,4 +151,7 @@ h1 {
   color: #fff;
   background-color: #304ffb !important;
   border-color: #304ffb !important;
+}
+Modal.Title {
+  color: #0e0e0e;
 }
