@@ -4,7 +4,7 @@
 }
 
 .selected {
-  background: #f9f9f9 !important;
+  background: #f8f8f8 !important;
   border: 2px solid #424242 !important;
 }
 p {
@@ -15,7 +15,6 @@ p {
 .options {
   padding: 16px;
   cursor: pointer;
-  max-width: 500px;
   background-color: #ffffff;
   color: #424242;
   font-weight: 400;
@@ -44,11 +43,15 @@ ul {
 ul li {
   margin: 5px;
 }
+h2 {
+  margin-bottom: 20px !important;
+}
 
 .card {
   background: white;
+  text-align: center;
   width: 530px;
-  height: 520px;
+  height: auto;
   border-radius: 10px;
   margin: 40px 40px 25px 40px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -58,7 +61,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: center !important;
   color: white;
   overflow-x: hidden;
   font-family: "Segoe UI";
@@ -73,9 +76,10 @@ h2 {
   margin-top: 0px;
   color: #0e0e0e;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 20px !important;
   padding-left: 30px;
   padding-right: 30px;
+  margin-bottom: 20px !important;
 }
 .question {
   color: #424242;
@@ -96,14 +100,17 @@ button {
   width: 150px;
   border-radius: 5px;
   margin-top: 25px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 h1 {
   color: #424242;
-  width: 500px;
+  width: 100% !important;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 25px !important;
   padding-left: 30px;
+  padding-right: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
   margin: 0;
@@ -115,11 +122,33 @@ h1 {
 }
 @media only screen and (max-width: 600px) {
   .card {
-    width: 400px;
-    height: 520px;
+    width: 350px;
+    height: auto;
+    text-align: center !important;
   }
   h1 {
-    font-size: 23px;
-    width: 340px;
+    font-size: 22px !important;
+    width: 100% !important;
   }
+}
+.btn-toolbar {
+  display: flex;
+  justify-content: center !important;
+  margin-bottom: 20px;
+}
+.audiobtn {
+  margin-top: 0px;
+  background: none;
+  color: rgb(48, 79, 251);
+  text-decoration: none;
+  font-size: 14px;
+}
+.modal-header .close {
+  padding: 15px !important;
+  width: auto;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #304ffb !important;
+  border-color: #304ffb !important;
 }

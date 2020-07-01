@@ -1,11 +1,12 @@
 import ReactDOM from "react-dom";
 import React from "react";
 import Quiz from "./Quiz";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div>
       <Quiz></Quiz>
+
       <p style={{ fontSize: 15 }}>Develop by Anmol Raj</p>
     </div>
   );
