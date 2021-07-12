@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: Arial;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .selected {
@@ -64,7 +64,7 @@ body {
   text-align: center !important;
   color: white;
   overflow-x: hidden;
-  font-family: "Segoe UI";
+font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   background-color: #dae3e8;
 }
